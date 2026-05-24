@@ -1,3 +1,34 @@
+window.openContactEmail = function(contactForm) {
+  const status = contactForm.querySelector('.form-status');
+  const submitButton = contactForm.querySelector('button[type="submit"]');
+  const formData = new FormData(contactForm);
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const subject = formData.get('su') || 'Portfolio message';
+  const message = formData.get('body');
+  const body = [
+    `Name: ${name}`,
+      `Reply email: ${email}`,
+    '',
+    message
+  ].join('\n');
+
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=rodinirosario@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const opened = window.open(gmailUrl, '_blank', 'noopener,noreferrer');
+
+  if (opened) {
+    status.className = 'form-status is-success';
+    status.textContent = 'Gmail opened in a new tab with your message ready to send.';
+  } else {
+    navigator.clipboard?.writeText(body);
+    status.className = 'form-status is-error';
+    status.textContent = 'Popup was blocked. Your message was copied; email it to rodinirosario@gmail.com.';
+  }
+
+  submitButton.disabled = false;
+  return false;
+};
+
 /**
 * Template Name: SnapFolio
 * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
@@ -185,6 +216,18 @@
   }
 
   window.addEventListener("load", initSwiper);
+
+  /**
+   * Contact form webmail fallback.
+   */
+  const contactForm = document.querySelector('#contact-form');
+  if (contactForm) {
+    window.__contactFormReady = true;
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      window.openContactEmail(contactForm);
+    });
+  }
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.

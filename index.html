@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=20260524-layout" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: SnapFolio
@@ -38,27 +38,27 @@
 
 <body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+  <header id="header" class="header dark-background modern-header">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="header-container d-flex flex-column align-items-start">
+    <div class="header-container modern-nav">
+      <a href="#hero" class="brand-mark" aria-label="Rodini Vince Rosario home">
+        <span>RVR</span>
+      </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Profile</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#resume">Experience</a></li>
+          <li><a href="#certifications">Credentials</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
-      <div class="social-links text-center">
-        <a href="https://twitter.com/@davinceee_9" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/rdnd.i/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://instagram.com/davinceee_9" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.messenger.com/t/rdnd.i" target="_blank"><i class="bi bi-telephone"></i></a>
+      <div class="social-links nav-social">
         <a href="https://github.com/da-vincee09" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="mailto:rodinirosario@gmail.com"><i class="bi bi-envelope"></i></a>
       </div>
 
     </div>
@@ -67,776 +67,298 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="background-elements">
-        <div class="bg-circle circle-1"></div>
-        <div class="bg-circle circle-2"></div>
-      </div>
-
-      <div class="hero-content">
-
-        <div class="container">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <div class="hero-text">
-                <h1>Port<span class="accent-text">Folio</span></h1>
-                <h2>Rodini Vince Rosario</h2>
-                <p class="lead">I'm a <span class="typed" data-typed-items="Mobile App Developer, Web Developer"></span></p>
-                <p class="description">Hardworking Computer Science undergraduate student specializing in mobile app development. Consistent, detail-oriented, and committed to building efficient, user-friendly applications.</p>
-
-                <div class="hero-actions">
-                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
-                </div>
-
-                <div class="social-links">
-                  <a href="https://www.facebook.com/rdnd.i/" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.messenger.com/t/rdnd.i" target="_blank"><i class="bi bi-envelope"></i></a>
-                  <a href="https://github.com/da-vincee09" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="tel:+639917750321" target="_blank"><i class="bi bi-telephone"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-              <div class="hero-visual">
-                <div class="profile-container">
-                  <div class="profile-background"></div>
-                  <img src="assets/img/profile/profile-1.png" alt="Rodini Vince Rosario" class="profile-image">
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
-            <div class="profile-card">
-              <div class="profile-header">
-                <div class="profile-image">
-                  <img src="assets/img/profile/profile-2.jpg" alt="Profile Image" class="img-fluid">
-                </div>
-                <div class="profile-badge">
-                  <i class="bi bi-check-circle-fill"></i>
-                </div>
-              </div>
-
-              <div class="profile-content">
-                <h3>Rodini Vince Rosario</h3>
-                <p class="profession">Developer</p>
-
-                <div class="contact-links">
-                  <a href="mailto:rodinirosario@gmail.com" class="contact-item" target="_blank">
-                    <i class="bi bi-envelope"></i>
-                    rodinirosario@gmail.com
-                  </a>
-                  <a href="tel:+639917750321" class="contact-item" target="_blank">
-                    <i class="bi bi-telephone"></i>
-                    +63 991 775 0321
-                  </a>
-                  <a href="https://www.google.com/maps/@17.5375376,120.3724641,3a,75y,289.29h,90t/data=!3m7!1e1!3m5!1sD0jZKFzUt_c8uVTLaWmnmQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DD0jZKFzUt_c8uVTLaWmnmQ%26yaw%3D289.28613!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" class="contact-item" target="_blank">
-                    <i class="bi bi-geo-alt"></i>
-                    Caoayan, Vigan City, I.S.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-content">
-              <div class="section-header">
-                <span class="badge-text">Get to Know Me</span>
-                <h2>Passionate About Creating Mobile and Web Applications</h2>
-              </div>
-
-              <div class="description">
-                <p> I am a dedicated developer with a strong focus on building intuitive, scalable, and impactful mobile and web applications. </p>
-
-                <p>With a commitment to continuous learning, I stay updated with the latest technologies and best practices. </p>
-              </div>
-
-              <div class="stats-grid">
-                <div class="stat-item">
-                  <div class="stat-number">2+</div>
-                  <div class="stat-label">Projects Completed</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">2+</div>
-                  <div class="stat-label">Years Experience</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">N/A</div>
-                  <div class="stat-label">Client Satisfaction</div>
-                </div>
-              </div>
-
-              <div class="details-grid">
-                <div class="detail-row">
-                  <div class="detail-item">
-                    <span class="detail-label">Specialization</span>
-                    <span class="detail-value">Mobile App &amp; Web Development</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Experience Level</span>
-                    <span class="detail-value">Junior Professional</span>
-                  </div>
-                </div>
-                <div class="detail-row">
-                  <div class="detail-item">
-                    <span class="detail-label">Education</span>
-                    <span class="detail-value">Computer Science, UNP</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Languages</span>
-                    <span class="detail-value">English, Filipino</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="cta-section">
-                <a href="assets/pdf/resume/Rodini_Vince_Rosario_Resume.pdf" download="Rodini_Vince_Rosario_Resume.pdf" class="btn btn-primary">
-                  <i class="bi bi-download"></i>
-                  Download Resume
-                </a>
-                <a href="https://www.messenger.com/t/rdnd.i" class="btn btn-outline" target="_blank">
-                  <i class="bi bi-chat-dots"></i>
-                  Let's Talk
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="stats-wrapper">
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
-                <div class="icon-wrapper">
-                  <i class="bi bi-emoji-smile"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Happy Clients</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon-wrapper">
-                  <i class="bi bi-journal-richtext"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
-                <div class="icon-wrapper">
-                  <i class="bi bi-headset"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hours Of Support</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
-                <div class="icon-wrapper">
-                  <i class="bi bi-people"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hard Workers</p>
-              </div><!-- End Stats Item -->
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
-              <h3>Front-end Development</h3>
-              <div class="skills-animation">
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>HTML/CSS</h4>
-                    <span class="skill-percentage">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Intermediate level knowledge of semantic HTML5 and modern CSS3 techniques</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>JavaScript</h4>
-                    <span class="skill-percentage">60%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Proficiency in ES6+, DOM manipulation, and modern frameworks</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>Flutter</h4>
-                    <span class="skill-percentage">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Experience creating mobile apps through flutter.</div>
-                </div>
-              </div>
-            </div><!-- End Frontend Skills -->
-          </div>
-
-          <div class="col-lg-6">
-            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
-              <h3>Back-end Development</h3>
-              <div class="skills-animation">
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>C</h4>
-                    <span class="skill-percentage">75%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Proficient with the basics of C, as well as the concepts of pointers and structs.</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>Java</h4>
-                    <span class="skill-percentage">85%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Knowledgeable with the use of classes, objects, and inheritance.</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>SQL</h4>
-                    <span class="skill-percentage">75%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Database design, optimization, and complex queries</div>
-                </div>
-              </div>
-            </div><!-- End Backend Skills -->
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p> Dedicated and adaptable professional with a strong background in technology and education. Experienced in software development, architecture, and mentoring, as well as one-on-one tutoring during the pandemic to support student growth. Proven ability to lead projects, collaborate with teams, and deliver impactful results across both technical and academic settings.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <!-- Left column with summary and contact -->
-          <div class="col-lg-4">
-            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
-              <div class="profile-img mb-4">
-                <img src="assets/img/profile/profile-3.JPG" alt="Profile" class="img-fluid rounded">
-              </div>
-
-              <h3>Professional Summary</h3>
-              <p>Motivated Computer Science student with strong academic performance and consistent recognition on the Dean’s List. Experienced as a personal tutor during the pandemic, providing individualized support to elementary students and developing skills in communication, adaptability, and lesson planning.</p>
-              <h3 class="mt-4">Contact Information</h3>
-              <ul class="contact-info list-unstyled">
-                <li><i class="bi bi-geo-alt"></i> Pandan, Caoayan Ilocos Sur</li>
-                <li><i class="bi bi-envelope"></i> rodinirosario@gmail.com</li>
-                <li><i class="bi bi-phone"></i> +63 991 775 0321</li>
-                <li><i class="bi bi-linkedin"></i> linkedin.com/in/example</li>
-              </ul>
-
-              <div class="skills-animation mt-4">
-                <h3>Technical Skills</h3>
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Web Development</span>
-                    <span>85%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Flutter</span>
-                    <span>85%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Project Management</span>
-                    <span>95%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right column with experience and education -->
-          <div class="col-lg-8 ps-4 ps-lg-5">
-            <!-- Experience Section -->
-            <div class="resume-section" data-aos="fade-up">
-              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
-
-              <div class="resume-item">
-                <h4>Personal Tutor</h4>
-                <h5>2021 - 2022</h5>
-                <p class="company"><i class="bi bi-building"></i> Independent</p>
-                <ul>
-                  <li>Provided one-on-one tutoring for two students during the pandemic, supporting remote and home-based learning</li>
-                  <li>Guided a Grade 1 student through transition to Grade 2, focusing on literacy, numeracy, and study skills</li>
-                  <li>Assisted a Kindergarten student in preparation for Grade 1, emphasizing foundational reading, writing, and math</li>
-                  <li>Created personalized lesson plans and engaging activities to maintain motivation and progress despite remote challenges</li>
-                </ul>
-              </div>
-
-            </div>
-
-            <!-- Education Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
-
-              <div class="resume-item">
-                <h4>Bachelor of Science in Computer Science</h4>
-                <h5>2023 - 2027</h5>
-                <p class="company"><i class="bi bi-building"></i> University of Norther Philippines</p>
-                <p>Dean's List all semesters. Became an auditor for the Computer Science Society accredited organization</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Senior High School</h4>
-                <h5>2021-2023</h5>
-                <p class="company"><i class="bi bi-building"></i> Ilocos Sur National High School</p>
-                <p>Took Science, Technology, Engineering, and Mathematic strand for senior high school</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Junior High School</h4>
-                <h5>2017-2021</h5>
-                <p class="company"><i class="bi bi-building"></i> Ilocos Sur National High School</p>
-                <p>Maintained a grade higher than 90 and stayed within the top five sections</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Elementary School</h4>
-                <h5>2011-2017</h5>
-                <p class="company"><i class="bi bi-building"></i> Pandan Elementary School (DLRC)</p>
-                <p>A local elementary school within our barangay</p>
-              </div>
-            </div>
-
-            <!-- Certifications Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
-              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
-
-              <div class="resume-item">
-                <h4>Code Smarter: A Beginner's Guide to Programming Practices</h4>
-                <h5>2024</h5>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>A collection of projects and accomplishments showcasing my skills in software development, design, and problem-solving. Each work highlights my ability to build functional, user-friendly, and innovative solutions while demonstrating continuous growth and adaptability in technology.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="row">
-            <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All Projects</li>
-                  <li data-filter=".filter-design">Mobile Application</li>
-                  <li data-filter=".filter-photography">Photography</li>
-                  <li data-filter=".filter-nature">Nature</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-9">
-              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/work-myself-logo.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Mobile Application</span>
-                        <h4>Work Myself</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/work-myself-logo.png" class="glightbox" title="Work Myself"><i class="bi bi-plus-lg"></i></a>
-                          <a href="work-myself-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/meditrack-logo.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Mobile Application</span>
-                        <h4>Meditrack</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/meditrack-logo.png" class="glightbox" title="Meditrack"><i class="bi bi-plus-lg"></i></a>
-                          <a href="meditrack-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/classroom.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Photography</span>
-                        <h4>Classroom</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/classroom.jpg" class="glightbox" title="Classroom"><i class="bi bi-plus-lg"></i></a>
-                          <a href="classroom-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/windows.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Photography</span>
-                        <h4>Windows</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/windows.jpg" class="glightbox" title="Windows"><i class="bi bi-plus-lg"></i></a>
-                          <a href="windows-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/grass.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Nature</span>
-                        <h4>Grass</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/grass.jpg" class="glightbox" title="Grass"><i class="bi bi-plus-lg"></i></a>
-                          <a href="grass-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/river.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Nature</span>
-                        <h4>River</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/river.jpg" class="glightbox" title="River"><i class="bi bi-plus-lg"></i></a>
-                          <a href="river-portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-              </div><!-- End Portfolio Container -->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>
-          Explore the core services I provide as a developer — from building cross-platform mobile apps 
-          to developing full-stack web solutions and managing robust SQL databases. Each service is tailored 
-          to deliver efficient, user-friendly, and scalable results.
-        </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="service-header">
-          <div class="row align-items-center">
-            <div class="col-lg-8 col-md-12">
-              <div class="service-intro">
-                <h2 class="service-heading">
-                  <div>Creative & Reliable</div>
-                  <div><span>Technology Solutions</span></div>
-                </h2>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-              <div class="service-summary">
-                <p>
-                  I specialize in building modern web and mobile applications, designing intuitive 
-                  user experiences, and managing projects with efficiency. From concept to deployment, 
-                  I provide tailored solutions that bring ideas to life and deliver real impact.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-phone"></i>
-              </div>
-              <a href="mobile-app-developer-service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="mobile-app-developer-service-details.html">
-                  Mobile <span>App Developer</span>
-                </a>
-              </h3>
-              <p>
-                Skilled in building cross-platform mobile applications using Flutter. Focused on creating 
-                responsive, user-friendly apps that deliver seamless performance on both Android and iOS.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
-              </div>
-              <a href="fulll-stack-web-developer-service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="fulll-stack-web-developer-service-details.html">
-                  Full Stack <span>Web Developer</span>
-                </a>
-              </h3>
-              <p>
-                Experienced in both front-end and back-end development. Capable of designing, developing, 
-                and deploying complete web solutions using modern frameworks and best practices.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-database"></i>
-              </div>
-              <a href="sql-service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="sql-service-details.html">
-                  SQL <span>Development</span>
-                </a>
-              </h3>
-              <p>
-                Proficient in database design, queries, and optimization. Skilled in managing relational databases 
-                to ensure data integrity, security, and efficiency for applications and business processes.
-              </p>
-            </div>
-             
-          </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Interested in working together or have a question? Feel free to reach out—I’m always open to discussing new projects, collaborations, or opportunities to help bring ideas to life.</p>
-      </div><!-- End Section Title -->
-
+    <section id="hero" class="hero section custom-hero">
       <div class="container">
-
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box">
-              <h3>Contact Info</h3>
-              <p>For more details, necessary information is given below.</p>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>My Location</h4>
-                  <p>O1100 Quirino Street</p>
-                  <p>Pandan, Caoayan, I.S.</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+63 926 110 7530</p>
-                  <p>+63 991 775 0321</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Email Address</h4>
-                  <p>rodinirosario@gmail.com</p>
-                  <p>rodinivincerosario@gmail.com</p>
-                </div>
-              </div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Computer Science student / Builder / Data analysis learner</span>
+            <h1>Rodini Vince Rosario</h1>
+            <p class="lead">I build practical mobile and web tools for reminders, habits, tasks, and data-backed workflows.</p>
+            <p class="description">A BS Computer Science student at the University of Northern Philippines with a 1.32 GWA, a growing stack in Flutter, Firebase, Supabase, SQL, and Python data analysis, and a steady habit of turning coursework into usable projects.</p>
+            <div class="hero-actions">
+              <a href="#portfolio" class="btn btn-primary"><i class="bi bi-grid"></i> View Work</a>
+              <a href="assets/pdf/resume/Rodini_Vince_Rosario_Resume.pdf" download="Rodini_Vince_Rosario_Resume.pdf" class="btn btn-outline"><i class="bi bi-download"></i> Resume</a>
             </div>
           </div>
 
-          <div class="col-lg-7">
-            <div class="contact-form">
-              <h3>Get in Touch</h3>
-              <p>Have a question or want to work together? Send me a message and I’ll get back to you as soon as possible.</p>
-
-              <form action="https://formsubmit.co/rodinirosario@gmail.com" method="POST" enctype="multipart/form-data" target="_blank">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-
-                </div>
-              </form>
-
+          <aside class="hero-portrait" aria-label="Profile photo and quick facts">
+            <img src="assets/img/profile/profile-1.png" alt="Rodini Vince Rosario">
+            <div class="portrait-note">
+              <span>Current focus</span>
+              <strong>Mobile apps, databases, and data analysis</strong>
             </div>
+            <div class="portrait-details">
+              <div>
+                <span>Building</span>
+                <strong>MediTrack, WorkMyself, and DoIt</strong>
+              </div>
+              <div>
+                <span>Learning lane</span>
+                <strong>Python analysis, relational databases, AI literacy</strong>
+              </div>
+            </div>
+            <div class="portrait-metrics">
+              <div>
+                <strong>1.32</strong>
+                <span>Current GWA</span>
+              </div>
+              <div>
+                <strong>3</strong>
+                <span>Software projects</span>
+              </div>
+              <div>
+                <strong>15</strong>
+                <span>Awards and certificates</span>
+              </div>
+            </div>
+          </aside>
+
+          <div class="hero-stack">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Supabase</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Pandas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section profile-section">
+      <div class="container">
+        <div class="section-kicker">Profile</div>
+        <div class="profile-layout">
+          <div class="profile-statement">
+            <h2>Quietly disciplined, technically curious, and drawn to tools that make daily life easier.</h2>
+            <p>I am a Computer Science student who learns best by building. My work blends mobile app ideas, database-backed interfaces, data analysis practice, and a personal interest in journaling, mindfulness, and self-improvement.</p>
           </div>
 
+          <div class="profile-card-grid">
+            <article class="mini-card">
+              <i class="bi bi-mortarboard"></i>
+              <span>Education</span>
+              <strong>BS Computer Science, University of Northern Philippines</strong>
+            </article>
+            <article class="mini-card">
+              <i class="bi bi-award"></i>
+              <span>Recognition</span>
+              <strong>Academic Excellence Gold and NTSP Leadership Gold</strong>
+            </article>
+            <article class="mini-card">
+              <i class="bi bi-compass"></i>
+              <span>Direction</span>
+              <strong>Mobile development, databases, analytics, and AI literacy</strong>
+            </article>
+            <article class="mini-card">
+              <i class="bi bi-journal-text"></i>
+              <span>Personal rhythm</span>
+              <strong>Journaling, mindfulness, coding, and continuous learning</strong>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section skill-section">
+      <div class="container">
+        <div class="section-kicker">Stack</div>
+        <div class="split-heading">
+          <h2>Skills grouped by how I actually use them.</h2>
+          <p>A practical mix for building apps, storing data, analyzing information, and communicating work clearly.</p>
         </div>
 
+        <div class="skill-board">
+          <article>
+            <span class="board-number">01</span>
+            <h3>Application Interfaces</h3>
+            <p>HTML, CSS, JavaScript, Flutter</p>
+          </article>
+          <article>
+            <span class="board-number">02</span>
+            <h3>Programming Logic</h3>
+            <p>Java, Python, C, SQL</p>
+          </article>
+          <article>
+            <span class="board-number">03</span>
+            <h3>Data and Backends</h3>
+            <p>Firebase, Supabase, relational databases</p>
+          </article>
+          <article>
+            <span class="board-number">04</span>
+            <h3>Analysis Tools</h3>
+            <p>Pandas, NumPy, Matplotlib, data preparation</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-    </section><!-- /Contact Section -->
+    <section id="portfolio" class="portfolio section work-section">
+      <div class="container">
+        <div class="section-kicker">Selected Work</div>
+        <div class="split-heading">
+          <h2>Projects with a useful, personal, and technical point of view.</h2>
+          <p>A mix of mobile apps, a web project, and visual work presented as selected portfolio pieces.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <img src="assets/img/portfolio/meditrack-logo.png" alt="MediTrack app logo">
+            <div>
+              <span>Mobile app / Firebase</span>
+              <h3>MediTrack</h3>
+              <p>Medication reminder and inventory app with barcode scanning, authentication, and real-time database management.</p>
+              <a href="meditrack-portfolio-details.html">View project <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/portfolio/work-myself-logo.png" alt="WorkMyself app logo">
+            <div>
+              <span>Mobile app / Habit tracking</span>
+              <h3>WorkMyself</h3>
+              <p>Fitness tracker with daily quotes, journaling, timer support, and progress-oriented routines.</p>
+              <a href="work-myself-portfolio-details.html">View project <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/portfolio/doit-thumbnail.png" alt="DoIt task management dashboard preview">
+            <div>
+              <span>Web project / Supabase</span>
+              <h3>DoIt</h3>
+              <p>Task management website built with HTML, CSS, JavaScript, and Supabase-backed user data.</p>
+              <a href="#contact">Ask about project <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card photo-card">
+            <img src="assets/img/portfolio/windows.jpg" alt="Windows photography project">
+            <div>
+              <span>Photography</span>
+              <h3>Frames and Light</h3>
+              <p>Visual studies from classroom, window, river, and nature photography work.</p>
+              <a href="windows-portfolio-details.html">Open gallery <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume section timeline-section">
+      <div class="container">
+        <div class="section-kicker">Experience</div>
+        <div class="split-heading">
+          <h2>Latest first, oldest last.</h2>
+          <p>Leadership, writing, and tutoring experiences that shaped how I communicate, organize work, and support other people.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>August 2024 - May 2025</time>
+            <div>
+              <h3>Auditor</h3>
+              <span>Computer Science Society / Vigan City, Ilocos Sur</span>
+              <p>Monitored organizational expenses, reviewed financial statements, tracked event budgets, prepared documentation, and helped projects move with accountability.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time>September 2023 - June 2024</time>
+            <div>
+              <h3>Opinion Writer</h3>
+              <span>iTech / Vigan City, Ilocos Sur</span>
+              <p>Wrote opinion pieces on student-centered technology topics and collaborated with peers and editors to sharpen ideas and writing quality.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time>October 2020 - June 2022</time>
+            <div>
+              <h3>Freelance Tutor</h3>
+              <span>Self Employed / Caoayan, Ilocos Sur</span>
+              <p>Provided one-on-one elementary tutoring during remote learning, taught reading and writing with modular materials, monitored progress, and coordinated with parents.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="education-panel">
+          <h3>Education</h3>
+          <div>
+            <strong>Bachelor of Science in Computer Science</strong>
+            <span>University of Northern Philippines / 2023 - 2027 / GWA 1.32</span>
+          </div>
+          <div>
+            <strong>Senior High School - STEM, With High Honors</strong>
+            <span>Ilocos Sur National High School / 2021 - 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section certification-section">
+      <div class="container">
+        <div class="section-kicker">Credentials</div>
+        <div class="split-heading">
+          <h2>Recent certifications and seminars.</h2>
+          <p>Updated from the resume, with emphasis on the newest and most relevant achievements.</p>
+        </div>
+
+        <div class="cert-grid">
+          <article><time>Apr 27, 2026</time><h3>Academic Excellence Award (Gold)</h3><p>CCIT</p></article>
+          <article><time>Apr 3, 2026</time><h3>Data Analysis: Career Preparation</h3><p>Cognitive Class</p></article>
+          <article><time>Apr 1, 2026</time><h3>Relational Database</h3><p>freeCodeCamp</p></article>
+          <article><time>Mar 5, 2026</time><h3>Robotics and Automation</h3><p>Erovoutika</p></article>
+          <article><time>Feb 27, 2026</time><h3>Data Analytics Essentials</h3><p>Cisco Networking Academy</p></article>
+          <article><time>Feb 25, 2026</time><h3>Data Analysis with Python</h3><p>freeCodeCamp</p></article>
+          <article><time>Feb 17, 2026</time><h3>Introduction to Data Science</h3><p>DICT-ITU DTC / Cisco Networking Academy</p></article>
+          <article><time>2024 - 2026</time><h3>AI, cybersecurity, HTML, and programming seminars</h3><p>ASEAN Foundation, Break The Fake Movement, MMSU, Simplilearn, CSS</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section services-modern">
+      <div class="container">
+        <div class="section-kicker">Services</div>
+        <div class="service-modern-grid">
+          <h2>What I can help build while I keep growing.</h2>
+          <div class="service-list">
+            <article><i class="bi bi-phone"></i><h3>Mobile app prototypes</h3><p>Flutter apps for reminders, tracking, journaling, and structured daily workflows.</p></article>
+            <article><i class="bi bi-window"></i><h3>Responsive websites</h3><p>Clean HTML, CSS, and JavaScript interfaces with simple, usable interactions.</p></article>
+            <article><i class="bi bi-database"></i><h3>Database-backed features</h3><p>Firebase, Supabase, SQL concepts, and organized data for student-scale apps.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section contact-modern">
+      <div class="container">
+        <div class="contact-panel">
+          <div>
+            <span class="section-kicker">Contact</span>
+            <h2>Let us talk about projects, learning opportunities, or collaboration.</h2>
+            <div class="contact-links-modern">
+              <a href="mailto:rodinirosario@gmail.com"><i class="bi bi-envelope"></i> rodinirosario@gmail.com</a>
+              <a href="tel:+639917750321"><i class="bi bi-phone"></i> 0991 775 0321</a>
+              <a href="https://github.com/da-vincee09" target="_blank"><i class="bi bi-github"></i> github.com/da-vincee09</a>
+              <span><i class="bi bi-geo-alt"></i> Pandan, Caoayan, Ilocos Sur</span>
+            </div>
+          </div>
+
+          <form id="contact-form" action="https://mail.google.com/mail/" method="get" target="_blank">
+            <input type="hidden" name="view" value="cm">
+            <input type="hidden" name="fs" value="1">
+            <input type="hidden" name="to" value="rodinirosario@gmail.com">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            <input type="text" class="form-control" name="su" placeholder="Subject" required="">
+            <textarea class="form-control" name="body" rows="5" placeholder="Message" required=""></textarea>
+            <div class="form-status" aria-live="polite"></div>
+            <button type="submit" class="btn btn-primary">Send Message <i class="bi bi-send"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
 
   </main>
 
@@ -844,7 +366,7 @@
 
      <div class="container">
         <div class="copyright text-center">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">Rodini Vince Rosario</strong> <span>All Rights Reserved</span></p>
+            <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">Rodini Vince Rosario</strong> <span>All Rights Reserved</span></p>
         </div>
         <div class="credits">
             <!-- Keep attribution to comply with free template license -->
@@ -873,7 +395,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=20260524-contact2"></script>
 
 </body>
 
