@@ -3748,7 +3748,7 @@ body.index-page {
   border: 1px solid var(--line);
   backdrop-filter: blur(18px);
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 120px minmax(0, 1fr) 120px;
   align-items: center;
   gap: 20px;
 }
@@ -3800,7 +3800,10 @@ body.index-page {
 }
 
 .portfolio-details-page .header .social-links {
-  display: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .portfolio-details-page .header .social-links a {
