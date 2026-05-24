@@ -3918,3 +3918,9 @@ body.index-page {
     font-size: 13px;
   }
 }
+
+@media (max-width: 768px) {
+  .project-card a {
+    display: none !important;
+  }
+}
