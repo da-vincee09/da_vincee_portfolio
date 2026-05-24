@@ -3479,11 +3479,11 @@ body.index-page {
   }
 
   .modern-header .header-container {
-    display: none;
+    display: none !important;
   }
 
   .modern-header.header-show .header-container {
-    display: grid;
+    display: grid !important;
     position: fixed;
     inset: 78px 18px auto;
     width: auto;
@@ -3742,7 +3742,7 @@ body.index-page {
 .portfolio-details-page .header .header-container {
   width: min(1180px, calc(100vw - 48px));
   margin: 0 auto;
-  padding: 10px;
+  padding: 8px;
   border-radius: 8px;
   background: rgba(24, 24, 24, 0.86);
   border: 1px solid var(--line);
@@ -3775,7 +3775,7 @@ body.index-page {
 
 .portfolio-details-page .header .navmenu a,
 .portfolio-details-page .header .navmenu a:focus {
-  height: 42px;
+  height: 38px;
   min-height: auto;
   padding: 0 14px;
   border-radius: 8px;
@@ -3813,24 +3813,33 @@ body.index-page {
 }
 
 .portfolio-details-page .page-title {
-  padding-top: 132px;
+  padding-top: 92px;
+}
+
+.portfolio-details-page .portfolio-details.section {
+  padding-top: 44px;
 }
 
 @media (max-width: 1199px) {
   .portfolio-details-page .header {
-    left: 18px;
-    right: 18px;
-    top: 18px;
+    left: 12px;
+    right: 12px;
+    top: 12px;
+  }
+
+  .portfolio-details-page .header .header-toggle {
+    right: 12px;
+    top: 12px;
   }
 
   .portfolio-details-page .header .header-container {
-    display: none;
+    display: none !important;
   }
 
   .portfolio-details-page .header.header-show .header-container {
-    display: grid;
+    display: grid !important;
     position: fixed;
-    inset: 78px 18px auto;
+    inset: 68px 12px auto;
     width: auto;
     grid-template-columns: 1fr;
   }
@@ -3846,6 +3855,14 @@ body.index-page {
 
   .portfolio-details-page .header .social-links {
     justify-content: center;
+  }
+
+  .portfolio-details-page .page-title {
+    padding-top: 74px;
+  }
+
+  .portfolio-details-page .portfolio-details.section {
+    padding-top: 36px;
   }
 }
 
@@ -3916,11 +3933,5 @@ body.index-page {
   #portfolio .project-card a {
     margin-top: 8px;
     font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-card a {
-    display: none !important;
   }
 }
